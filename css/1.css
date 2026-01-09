@@ -80,11 +80,13 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url(../img/gambar\ bg.jpg);
+  background-image: url(../img/foto\ baru.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
+  max-width: 100%;
+  height: auto;
 }
 .hero::after{
   content: '';
